@@ -8,8 +8,8 @@ export default function HomePage() {
       <Button label="Click Me" />
 
       <ul className="mt-4 space-y-2">
-        <li><Link href="/login">Login</Link></li>
-        <li><Link href="/signup">Signup</Link></li>
+        <li><Link href="/auth/login">Login</Link></li>
+        <li><Link href="/auth/signup">Signup</Link></li>
         <li><Link href="/dashboard">Dashboard</Link></li>
       </ul>
     </div>
